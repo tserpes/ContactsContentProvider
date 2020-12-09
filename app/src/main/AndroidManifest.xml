@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gr.hua.dit.android.contactscontentprovider">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContactsContentProvider">
+        <provider
+            android:authorities="gr.hua.dit.android.contactscontentprovider"
+            android:name=".ContactsContentProvider"
+            android:exported="true">
+        </provider>
+    </application>
+
+</manifest>
